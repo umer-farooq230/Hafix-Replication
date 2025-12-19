@@ -28,9 +28,9 @@ sample-level accuracy and bug-level success rate.
 
 I experimented with different heuristic strategies to guide the model:
 
-* FLN-ALL	Uses Fix Location Heuristics to highlight the exact lines likely to contain bugs.
-* CFN-ALL	Combines Contextual Fixing Heuristics with FLN, giving extra weight to context around the bug.
-* FN-ALL	Uses Fixing Heuristics Only, without line-level localization.
+* **FLN-ALL**:	Uses Fix Location Heuristics to highlight the exact lines likely to contain bugs.
+* **CFN-ALL**:	Combines Contextual Fixing Heuristics with FLN, giving extra weight to context around the bug.
+* **FN-ALL**:	Uses Fixing Heuristics Only, without line-level localization.
 
 ### Evaluation
 Taking in account the time limitations, my approach to evaluation was this:
